@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Face Detection</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        video {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <img id="video" width="640" height="480" />
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
